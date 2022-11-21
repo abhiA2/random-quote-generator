@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './component/Card';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <strong>
         Random Quote Generator
       </strong>
+      <Card />
     </div>
   );
 }

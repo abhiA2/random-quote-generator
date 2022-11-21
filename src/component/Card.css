@@ -1,0 +1,27 @@
+.card {
+  max-height: 200px;
+  max-width: 300px;
+  border: 12px solid white;
+  background-color: white;
+  object-fit: contain;
+}
+
+.quote {
+}
+
+.author {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-icon {
+  color: rgb(155, 89, 182);
+  display: flex;
+  /* flex-direction: row; */
+  gap: 10px;
+}
